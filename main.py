@@ -85,7 +85,7 @@ def main():
         # Main loop
         while True:
             try:
-                user_id = random.randint(100000000, 1000000000)
+                user_id = random.randint(18000, 300000)
                 if follow_user(browser, user_id):
                     time.sleep(1)
                 else:
